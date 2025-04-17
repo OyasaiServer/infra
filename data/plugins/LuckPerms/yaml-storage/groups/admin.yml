@@ -1,6 +1,4 @@
 name: admin
 permissions:
 - '*'
-- minecraft.command.op:
-    value: false
 - weight.10000
