@@ -16,27 +16,30 @@
 !data/**/config*.yml
 !data/**/*config*/**/
 
-# Overrides
-data/plugins/Essentials/userdata/*
-data/.rcon-cli.yaml
-data/version_history.json
-data/usercache.json
-data/.purpur-manifest.json
-data/whitelist.json
-data/banned-ips.json
-data/banned-players.json
-data/plugins/.var-list-manifest.json
-data/plugins/LuckPerms/translations/repository/status.json
-data/main/**/*.json
-data/plugins/TAB/users.yml
-
-# Data
+# Data (should be backed up)
 data/ops.json
+data/main/**/*.json
+data/plugins/WorldGuard/worlds/*
+data/plugins/Essentials/userdata/*
 data/plugins/LuckPerms/yaml-storage/users/*.yml
 data/plugins/TokenManager/data.yml
 data/plugins/CreativeManager/data/*.yml
 data/plugins/Multiverse-Portals/portals.yml
 data/plugins/Multiverse-Core/worlds.yml
+
+# Handled by plugins
+data/whitelist.json
+data/banned-ips.json
+data/banned-players.json
+
+# Caches / Temp files
+data/.rcon-cli.yaml
+data/.purpur-manifest.json
+data/version_history.json
+data/usercache.json
+data/plugins/.var-list-manifest.json
+data/plugins/LuckPerms/translations/repository/status.json
+data/plugins/TAB/users.yml
 
 ### Intellij template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
