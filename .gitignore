@@ -32,7 +32,7 @@ data/plugins/TAB/users.yml
 
 # Data
 data/ops.json
-data/plugins/LuckPerms/yaml-storage/**/*.yml
+data/plugins/LuckPerms/yaml-storage/users/*.yml
 data/plugins/TokenManager/data.yml
 data/plugins/CreativeManager/data/*.yml
 data/plugins/Multiverse-Portals/portals.yml
