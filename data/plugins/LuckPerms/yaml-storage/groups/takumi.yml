@@ -1,9 +1,9 @@
 name: takumi
 permissions:
 - essentials.gamemode.*
-- fawe
 - weight.600
-- worldedit
-- worldeditsui
 parents:
 - kenchikushi
+prefixes:
+- '&c匠&f ':
+    priority: 500

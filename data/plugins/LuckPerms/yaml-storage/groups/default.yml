@@ -1,6 +1,7 @@
 name: default
 permissions:
-- tokenmanager.use.*
+- '*':
+    value: false
 - coreprotect.co
 - essentials.afk
 - essentials.balance

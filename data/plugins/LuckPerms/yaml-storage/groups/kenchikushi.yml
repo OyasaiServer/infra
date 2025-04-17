@@ -5,4 +5,7 @@ permissions:
 - essentials.weather
 - weight.500
 parents:
-- jyokyu
+- jokyu
+prefixes:
+- '&5建築士&f ':
+    priority: 400

@@ -3,3 +3,6 @@ permissions:
 - weight.300
 parents:
 - shokyu
+prefixes:
+- '&2中級者&f ':
+    priority: 200

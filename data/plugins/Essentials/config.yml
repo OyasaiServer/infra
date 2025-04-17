@@ -69,7 +69,7 @@ change-tab-complete-name: false
 #add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
-# This feature only works for Minecraft version 1.8 and higher. 
+# This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
 #add-suffix-in-playerlist: true
 
@@ -518,7 +518,7 @@ sleep-ignores-afk-players: true
 # Users with the permission node essentials.sleepingignored will always be ignored.
 sleep-ignores-vanished-player: true
 
-# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
+# Set the player's list name when they are AFK. This is none by default which specifies that Essentials
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
 afk-list-name: "none"
@@ -555,7 +555,7 @@ allow-silent-join-quit: false
 # or set this to "" to hide the message entirely.
 
 # Available placeholders:
-# {PLAYER} - The player's displayname. 
+# {PLAYER} - The player's displayname.
 # {USERNAME} - The player's username.
 # {PREFIX} - The player's prefix.
 # {SUFFIX} - The player's suffix.
@@ -571,7 +571,7 @@ custom-quit-message: "none"
 # Set this to "none" to use the the "custom-join-message" above for every join.
 
 # Available placeholders:
-# {PLAYER} - The player's displayname. 
+# {PLAYER} - The player's displayname.
 # {USERNAME} - The player's username.
 # {OLDUSERNAME} - The player's old username.
 # {PREFIX} - The player's prefix.
@@ -598,7 +598,7 @@ no-god-in-worlds:
 # This applies to /world, /back, /tp[a|o][here|all], but not warps.
 # Give someone permission to teleport to a world with essentials.worlds.<worldname>
 # This does not affect the /home command, there is a separate toggle below for this.
-world-teleport-permissions: false
+world-teleport-permissions: true
 
 # The number of items given if the quantity parameter is left out in /item or /give.
 # If this number is below 1, the maximum stack size size is given. If over-sized stacks.
@@ -831,7 +831,7 @@ command-costs:
   #kit-tools: 1500
 
 # Set this to a currency symbol you want to use.
-# Remember, if you want to use special characters in this document, 
+# Remember, if you want to use special characters in this document,
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
 currency-symbol: '$'
 
@@ -947,8 +947,8 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
-  #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
+  format: '{PREFIX}{SUFFIX} {DISPLAYNAME} {MESSAGE}'
+  #format: '&7[{GROUP}]&r {DISPLAYNAME}å&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   # You can also specify a format for each type of chat.
@@ -1228,7 +1228,7 @@ respawn-listener-priority: high
 spawn-join-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # When users die, should they respawn at their bed instead of the spawnpoint?
 # The value of respawn-at-home (above) has to be true.
