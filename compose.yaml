@@ -1,0 +1,48 @@
+services:
+  paper:
+    image: itzg/minecraft-server:java23
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: TRUE
+      TYPE: PURPUR
+      VERSION: 1.20.1
+      MEMORY: 2560M
+      MAX_PLAYERS: 70
+      MOTD: Oyasai Server
+      ICON: https://avatars.githubusercontent.com/u/70241145
+      OVERRIDE_ICON: true
+      USE_AIKAR_FLAGS: true
+      TZ: Asia/Tokyo
+      DIFFICULTY: 2
+      PVP: false
+      FORCE_GAMEMODE: true
+      ENABLE_COMMAND_BLOCK: true
+      SPAWN_ANIMALS: false
+      SPAWN_MONSTERS: false
+      SPAWN_NPCS: false
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: 80
+      SIMULATION_DISTANCE: 12
+      VIEW_DISTANCE: 12
+      LEVEL: main
+      GENERATE_STRUCTURES: false
+      SPAWN_PROTECTION: 0
+      MAX_TICK_TIME: -1
+      MAX_CHAINED_NEIGHBOR_UPDATES: 500000
+      OPS: |-
+        eru__chan
+      PLUGINS: |-
+        https://github.com/ViaVersion/ViaVersion/releases/download/5.3.2/ViaVersion-5.3.2.jar
+        https://github.com/Test-Account666/PlugManX/releases/download/2.4.1/PlugManX-2.4.1.jar
+        https://github.com/EssentialsX/Essentials/releases/download/2.21.0/EssentialsX-2.21.0.jar
+        https://download.luckperms.net/1575/bukkit/loader/LuckPerms-Bukkit-5.4.158.jar
+      NETWORK_COMPRESSION_THRESHOLD: 512
+      PAUSE_WHEN_EMPTY_SECONDS: 30
+      PLAYER_IDLE_TIMEOUT: 6000
+      ENABLE_ROLLING_LOGS: true
+      LOG_TIMESTAMP: true
+    volumes:
+      - ./data:/data
