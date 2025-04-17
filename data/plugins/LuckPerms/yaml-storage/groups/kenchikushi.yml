@@ -1,0 +1,8 @@
+name: kenchikushi
+permissions:
+- essentials.time
+- essentials.tp
+- essentials.weather
+- weight.500
+parents:
+- jyokyu

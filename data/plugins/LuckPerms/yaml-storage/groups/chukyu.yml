@@ -1,0 +1,5 @@
+name: chukyu
+permissions:
+- weight.300
+parents:
+- shokyu

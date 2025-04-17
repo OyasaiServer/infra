@@ -37,6 +37,7 @@ data/.rcon-cli.yaml
 data/.purpur-manifest.json
 data/version_history.json
 data/usercache.json
+data/plugins/LuckPerms/editor-keystore.json
 data/plugins/.var-list-manifest.json
 data/plugins/LuckPerms/translations/repository/status.json
 data/plugins/TAB/users.yml

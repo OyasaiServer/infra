@@ -1,1 +1,11 @@
 name: default
+permissions:
+- tokenmanager.use.*
+- coreprotect.co
+- essentials.afk
+- essentials.balance
+- essentials.balancetop
+- essentials.enderchest
+- essentials.pay
+- essentials.realname
+- weight.100

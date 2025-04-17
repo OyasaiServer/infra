@@ -1,0 +1,5 @@
+name: shokyu
+permissions:
+- weight.200
+parents:
+- default

@@ -1,0 +1,5 @@
+name: blue
+permissions:
+- weight.700
+parents:
+- takumi

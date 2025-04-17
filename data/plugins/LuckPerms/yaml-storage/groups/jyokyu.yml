@@ -1,0 +1,6 @@
+name: jyokyu
+permissions:
+- essentials.fly
+- weight.400
+parents:
+- chukyu
