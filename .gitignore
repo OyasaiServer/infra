@@ -16,6 +16,9 @@
 !data/**/config*.yml
 !data/**/*config*/**/
 
+# Plugins file
+!data/plugins.txt
+
 # Data (should be backed up)
 data/ops.json
 data/main/**/*.json
@@ -38,7 +41,7 @@ data/.purpur-manifest.json
 data/version_history.json
 data/usercache.json
 data/plugins/LuckPerms/editor-keystore.json
-data/plugins/.var-list-manifest.json
+data/plugins/*.json
 data/plugins/LuckPerms/translations/repository/status.json
 data/plugins/TAB/users.yml
 
