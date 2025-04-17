@@ -28,6 +28,15 @@ data/banned-players.json
 data/plugins/.var-list-manifest.json
 data/plugins/LuckPerms/translations/repository/status.json
 data/main/**/*.json
+data/plugins/TAB/users.yml
+
+# Data
+data/ops.json
+data/plugins/LuckPerms/yaml-storage/**/*.yml
+data/plugins/TokenManager/data.yml
+data/plugins/CreativeManager/data/*.yml
+data/plugins/Multiverse-Portals/portals.yml
+data/plugins/Multiverse-Core/worlds.yml
 
 ### Intellij template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
