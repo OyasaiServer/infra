@@ -1,3 +1,7 @@
+### envfile
+.env
+!.env.example
+
 # Ignore everything under /data
 /data/**
 
