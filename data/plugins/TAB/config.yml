@@ -2,19 +2,17 @@
 header-footer:
   enabled: true
   header:
-    - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&3&lServer name"
-    - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&r&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
-    - ""
+    - '&8&m============================='
+    - ''
+    - '&7&l&oOYASAI&f&l&oSERVER'
+    - ''
   footer:
-    - "%animation:time%"
-    - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
-    - ""
-    - "&r&7Visit our webpage %animation:web%"
-    - "<#FFFFFF>&m                                                </#FFFF00>"
+    - ''
+    - '&7&o¥&r&a%vault_eco_balance_commas% &f|&r &b%tm_tokens_commas%&7&oP'
+    - ''
+    - '&2%online%&f &7players online &f| &3%tps% &7TPS'
+    - ''
+    - '&8&m=============================='
   disable-condition: '%world%=disabledworld'
   per-world:
     world1:
@@ -45,8 +43,8 @@ scoreboard-teams:
   anti-override: true
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
-    - "PLACEHOLDER_A_TO_Z:%player%"
+    - GROUPS:white,blue,takumi,builder,jokyu,chukyu,shokyu,default,mod,admin,dev
+    - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
   disable-condition: '%world%=disabledworld'
@@ -55,7 +53,7 @@ scoreboard-teams:
 playerlist-objective:
   enabled: true
   value: "%ping%"
-  fancy-value: "&7Ping: %ping%"
+  fancy-value: "&7%ping%"
   title: "Java Edition is better" # Only visible on Bedrock Edition
   render-type: INTEGER
   disable-condition: '%world%=disabledworld'

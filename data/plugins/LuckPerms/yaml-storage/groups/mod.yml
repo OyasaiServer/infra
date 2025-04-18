@@ -1,4 +1,4 @@
-name: moderator
+name: mod
 permissions:
 - weight.9000
 prefixes:

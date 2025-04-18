@@ -32,11 +32,12 @@ services:
       SPAWN_PROTECTION: 0
       MAX_TICK_TIME: -1
       MAX_CHAINED_NEIGHBOR_UPDATES: 500000
-      PLUGINS_FILE: /data/plugins.txt
       NETWORK_COMPRESSION_THRESHOLD: 512
       PAUSE_WHEN_EMPTY_SECONDS: 30
       PLAYER_IDLE_TIMEOUT: 6000
       ENABLE_ROLLING_LOGS: true
       LOG_TIMESTAMP: true
+      # Plugins
+      PLUGINS_FILE: /data/plugins.txt
     volumes:
       - ./data:/data

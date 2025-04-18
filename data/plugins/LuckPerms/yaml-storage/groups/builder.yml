@@ -1,4 +1,4 @@
-name: kenchikushi
+name: builder
 permissions:
 - essentials.time
 - essentials.tp

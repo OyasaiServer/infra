@@ -19,6 +19,9 @@
 # Plugins file
 !data/plugins.txt
 
+# URL not available
+!data/plugins/TokenManager-3.2.8.jar
+
 # Data (should be backed up)
 data/ops.json
 data/main/**/*.json
@@ -31,6 +34,7 @@ data/plugins/Multiverse-Portals/portals.yml
 data/plugins/Multiverse-Core/worlds.yml
 
 # Handled by plugins
+data/plugins/TokenManager/lang-*.yml
 data/whitelist.json
 data/banned-ips.json
 data/banned-players.json
