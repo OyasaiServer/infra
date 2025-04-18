@@ -1,6 +1,6 @@
 services:
   purpur:
-    image: itzg/minecraft-server:java23
+    image: itzg/minecraft-server:java21
     restart: unless-stopped
     tty: true
     stdin_open: true
