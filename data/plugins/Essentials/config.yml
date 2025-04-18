@@ -947,7 +947,8 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{PREFIX}{SUFFIX} {DISPLAYNAME} {MESSAGE}'
+  # DISPLAYNAME contains prefixes and suffixes from LuckPerms
+  format: '{DISPLAYNAME} {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}å&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
